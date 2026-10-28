@@ -138,11 +138,18 @@ def find_doctor(symptoms: str) -> str:
         return "Error: symptom query cannot be empty."
 
     try:
+        url = f"{BACKEND_URL}/api/v1/doctors/search"
         resp = requests.get(
-            f"{BACKEND_URL}/api/doctors/search",
+            url,
             params={"q": symptoms, "limit": 3},
             timeout=15,
         )
+        if resp.status_code == 404:
+            resp = requests.get(
+                f"{BACKEND_URL}/api/doctors/search",
+                params={"q": symptoms, "limit": 3},
+                timeout=15,
+            )
         resp.raise_for_status()
         doctors = resp.json()
     except requests.RequestException as e:

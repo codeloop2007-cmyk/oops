@@ -1,0 +1,1154 @@
+{
+  "ai-service/pyproject.toml": {
+    "mtime": 1792010780.1366975,
+    "seen": 1793207786.9267635,
+    "ast_hash": "36d4918bef05e39c841db94eed802cc9",
+    "semantic_hash": "36d4918bef05e39c841db94eed802cc9"
+  },
+  "ai-service/src/ai_service/__init__.py": {
+    "mtime": 1792006063.82026,
+    "seen": 1793207786.926774,
+    "ast_hash": "16c0f279936923061cc086c80b869cfb",
+    "semantic_hash": "16c0f279936923061cc086c80b869cfb"
+  },
+  "ai-service/src/ai_service/main.py": {
+    "mtime": 1793212449.2283854,
+    "seen": 1793216413.989497,
+    "ast_hash": "8f6970f6d16bdd326d4830d06e058943",
+    "semantic_hash": ""
+  },
+  "backend/mvnw": {
+    "mtime": 1792000824.0,
+    "seen": 1793207786.9267836,
+    "ast_hash": "ab50dd89da7da2346b28003352eeeeeb",
+    "semantic_hash": "ab50dd89da7da2346b28003352eeeeeb"
+  },
+  "backend/pom.xml": {
+    "mtime": 1792008483.59864,
+    "seen": 1793207786.9267871,
+    "ast_hash": "890866947c0380261fe29ab0d6c59ac2",
+    "semantic_hash": "890866947c0380261fe29ab0d6c59ac2"
+  },
+  "backend/src/main/java/com/mediconnect/backend/BackendApplication.java": {
+    "mtime": 1792402032.7544882,
+    "seen": 1793207786.9267905,
+    "ast_hash": "da93616aa76ddb8199963dadca5e718c",
+    "semantic_hash": "da93616aa76ddb8199963dadca5e718c"
+  },
+  "backend/src/main/java/com/mediconnect/backend/config/RestTemplateConfig.java": {
+    "mtime": 1792402392.9686637,
+    "seen": 1793207786.9267938,
+    "ast_hash": "236525d364242753fe59d3794684372b",
+    "semantic_hash": "236525d364242753fe59d3794684372b"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/controller/AppointmentController.java": {
+    "mtime": 1792399140.8364906,
+    "seen": 1793207786.9267964,
+    "ast_hash": "6a1e2054fe5cec21c09d3124e16c1ecf",
+    "semantic_hash": "6a1e2054fe5cec21c09d3124e16c1ecf"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/dto/AppointmentResponse.java": {
+    "mtime": 1792399141.9414966,
+    "seen": 1793207786.926799,
+    "ast_hash": "f2b08897caab7b5b92d3b319e1bf9d37",
+    "semantic_hash": "f2b08897caab7b5b92d3b319e1bf9d37"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/dto/CreateAppointmentRequest.java": {
+    "mtime": 1792399142.5264997,
+    "seen": 1793207786.926802,
+    "ast_hash": "33c98ceb69d11a2a8b36ec577ab127d1",
+    "semantic_hash": "33c98ceb69d11a2a8b36ec577ab127d1"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/dto/UpdateAppointmentRequest.java": {
+    "mtime": 1792399142.966502,
+    "seen": 1793207786.9268048,
+    "ast_hash": "71c7bbe87b184e3b3f331f1fc461d9af",
+    "semantic_hash": "71c7bbe87b184e3b3f331f1fc461d9af"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/entity/Appointment.java": {
+    "mtime": 1792238075.7219377,
+    "seen": 1793207786.9268079,
+    "ast_hash": "7d8e308c277b63e4ad0bffedc901d7ea",
+    "semantic_hash": "7d8e308c277b63e4ad0bffedc901d7ea"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/exception/AppointmentNotFoundException.java": {
+    "mtime": 1792399143.2315032,
+    "seen": 1793207786.9268107,
+    "ast_hash": "2fdc29225d771df150ee622d80b82791",
+    "semantic_hash": "2fdc29225d771df150ee622d80b82791"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/exception/SlotNotAvailableException.java": {
+    "mtime": 1792399143.9975073,
+    "seen": 1793207786.9268131,
+    "ast_hash": "25b785ed87e9d2d4116267836b0d73d1",
+    "semantic_hash": "25b785ed87e9d2d4116267836b0d73d1"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/repository/AppointmentRepository.java": {
+    "mtime": 1792399144.2285087,
+    "seen": 1793207786.926816,
+    "ast_hash": "2843930be72674832abcadb3448b2de4",
+    "semantic_hash": "2843930be72674832abcadb3448b2de4"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/appointment/service/AppointmentService.java": {
+    "mtime": 1792399144.3395092,
+    "seen": 1793207786.9268186,
+    "ast_hash": "0bdda600a1f7625005051fbfe25117ba",
+    "semantic_hash": "0bdda600a1f7625005051fbfe25117ba"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/config/OpenApiConfig.java": {
+    "mtime": 1792237893.4240377,
+    "seen": 1793207786.9268215,
+    "ast_hash": "0f911a0ffced163bdc47f0e56ac0a08b",
+    "semantic_hash": "0f911a0ffced163bdc47f0e56ac0a08b"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/controller/DoctorEmbeddingController.java": {
+    "mtime": 1792399144.4235096,
+    "seen": 1793207786.926824,
+    "ast_hash": "f0b074fb11e67eed16c95bc4cb81f0b6",
+    "semantic_hash": "f0b074fb11e67eed16c95bc4cb81f0b6"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/dto/DoctorEmbeddingResponse.java": {
+    "mtime": 1792399144.5115101,
+    "seen": 1793207786.926827,
+    "ast_hash": "539bee474aaf5d4dbf513e0e49ef9308",
+    "semantic_hash": "539bee474aaf5d4dbf513e0e49ef9308"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/dto/UpsertDoctorEmbeddingRequest.java": {
+    "mtime": 1792399144.6285107,
+    "seen": 1793207786.9268298,
+    "ast_hash": "da7ec793c2eceb01d6b77dbc8a568bd7",
+    "semantic_hash": "da7ec793c2eceb01d6b77dbc8a568bd7"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/entity/DoctorEmbedding.java": {
+    "mtime": 1793214694.0092013,
+    "seen": 1793216413.991075,
+    "ast_hash": "eb28dbf627180a3af306b07c76207a5c",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/exception/DoctorEmbeddingNotFoundException.java": {
+    "mtime": 1792399150.1656983,
+    "seen": 1793207786.9268355,
+    "ast_hash": "d26dd94f685fcc36b1e6bb85d08a0931",
+    "semantic_hash": "d26dd94f685fcc36b1e6bb85d08a0931"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/repository/DoctorEmbeddingRepository.java": {
+    "mtime": 1792402053.1946683,
+    "seen": 1793207786.9268386,
+    "ast_hash": "09f7083c599f1be96c731ddb720ccb57",
+    "semantic_hash": "09f7083c599f1be96c731ddb720ccb57"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/service/DoctorEmbeddingService.java": {
+    "mtime": 1793215376.0867784,
+    "seen": 1793216413.9912543,
+    "ast_hash": "8ade87b718d48cb0deafae531ada074a",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/worker/EmbeddingWorker.java": {
+    "mtime": 1793215394.4270554,
+    "seen": 1793216413.9912572,
+    "ast_hash": "aa7d273c771c4f722c3c6c9312669e43",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/controller/DoctorNoteController.java": {
+    "mtime": 1792399595.85758,
+    "seen": 1793207786.9268465,
+    "ast_hash": "02c0247ed55b8eddde425f89d5345b1e",
+    "semantic_hash": "02c0247ed55b8eddde425f89d5345b1e"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/dto/CreateDoctorNoteRequest.java": {
+    "mtime": 1792399156.74307,
+    "seen": 1793207786.9268494,
+    "ast_hash": "54f65598519f986fc17b5467e51c36a7",
+    "semantic_hash": "54f65598519f986fc17b5467e51c36a7"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/dto/DoctorNoteResponse.java": {
+    "mtime": 1792399157.1711056,
+    "seen": 1793207786.9268517,
+    "ast_hash": "f6b5e0547f0e0cbca836629c0cab0d34",
+    "semantic_hash": "f6b5e0547f0e0cbca836629c0cab0d34"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/dto/UpdateDoctorNoteRequest.java": {
+    "mtime": 1792399158.3311598,
+    "seen": 1793207786.9268546,
+    "ast_hash": "7206d61ff908bcaa9dc2894031f82edb",
+    "semantic_hash": "7206d61ff908bcaa9dc2894031f82edb"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/entity/DoctorNote.java": {
+    "mtime": 1792238075.7250476,
+    "seen": 1793207786.9268572,
+    "ast_hash": "b58db6d0cda2a057a6dd34559f55919f",
+    "semantic_hash": "b58db6d0cda2a057a6dd34559f55919f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/exception/DoctorNoteNotFoundException.java": {
+    "mtime": 1792399158.6731791,
+    "seen": 1793207786.9268599,
+    "ast_hash": "b3fa244dc15ec849c5a284619f47b6b9",
+    "semantic_hash": "b3fa244dc15ec849c5a284619f47b6b9"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/repository/DoctorNoteRepository.java": {
+    "mtime": 1792399159.2242103,
+    "seen": 1793207786.9268622,
+    "ast_hash": "d5d61eacb539d0a3dd6d90e368cbcf91",
+    "semantic_hash": "d5d61eacb539d0a3dd6d90e368cbcf91"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctornote/service/DoctorNoteService.java": {
+    "mtime": 1792399160.1902647,
+    "seen": 1793207786.926865,
+    "ast_hash": "44c95483d60fc4a170a656079683797d",
+    "semantic_hash": "44c95483d60fc4a170a656079683797d"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/controller/DoctorProfileController.java": {
+    "mtime": 1792246428.0340228,
+    "seen": 1793207786.926868,
+    "ast_hash": "9fb7ad9afd82d287ebddc66e99247fb3",
+    "semantic_hash": "9fb7ad9afd82d287ebddc66e99247fb3"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/dto/CreateDoctorProfileRequest.java": {
+    "mtime": 1792243979.6407235,
+    "seen": 1793207786.9268706,
+    "ast_hash": "b37b8886aabc74e4d273b568e3d750d2",
+    "semantic_hash": "b37b8886aabc74e4d273b568e3d750d2"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/dto/DoctorProfileResponse.java": {
+    "mtime": 1792243979.7089362,
+    "seen": 1793207786.9268734,
+    "ast_hash": "b366513e66be118f979b530db8efae57",
+    "semantic_hash": "b366513e66be118f979b530db8efae57"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/dto/UpdateDoctorProfileRequest.java": {
+    "mtime": 1792243979.7644122,
+    "seen": 1793207786.9268758,
+    "ast_hash": "15410225efae3a1ce0192631e6f40176",
+    "semantic_hash": "15410225efae3a1ce0192631e6f40176"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/entity/DoctorProfile.java": {
+    "mtime": 1792246428.131394,
+    "seen": 1793207786.9268787,
+    "ast_hash": "84d67ca4f1b376151420960ec68c9407",
+    "semantic_hash": "84d67ca4f1b376151420960ec68c9407"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/exception/DoctorProfileNotFoundException.java": {
+    "mtime": 1792243979.836942,
+    "seen": 1793207786.9268813,
+    "ast_hash": "54d479489dc33e526eb73953003f723e",
+    "semantic_hash": "54d479489dc33e526eb73953003f723e"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/exception/DuplicateLicenseNumberException.java": {
+    "mtime": 1792243979.8677278,
+    "seen": 1793207786.9268842,
+    "ast_hash": "7cece3f35510f0fb1f6e205bec3e9037",
+    "semantic_hash": "7cece3f35510f0fb1f6e205bec3e9037"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/repository/DoctorProfileRepository.java": {
+    "mtime": 1792243979.9117286,
+    "seen": 1793207786.9268866,
+    "ast_hash": "5c6eae2e997d56390e8fa12cd6a566f5",
+    "semantic_hash": "5c6eae2e997d56390e8fa12cd6a566f5"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorprofile/service/DoctorProfileService.java": {
+    "mtime": 1792402395.273684,
+    "seen": 1793207786.9268894,
+    "ast_hash": "71a48faef1c0f52a493d3cb11b4cfa38",
+    "semantic_hash": "71a48faef1c0f52a493d3cb11b4cfa38"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorsearch/controller/DoctorSearchController.java": {
+    "mtime": 1793212461.3075693,
+    "seen": 1793216413.993167,
+    "ast_hash": "421f5a61e72f3651eea147750c55318f",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorsearch/dto/DoctorSearchResponse.java": {
+    "mtime": 1792405029.2542434,
+    "seen": 1793207786.9268959,
+    "ast_hash": "70f5bf27fd8861bc149432d907071bf4",
+    "semantic_hash": "70f5bf27fd8861bc149432d907071bf4"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorsearch/service/DoctorSearchService.java": {
+    "mtime": 1792405412.3400288,
+    "seen": 1793207786.9268987,
+    "ast_hash": "dead65580c2adf6299a0bb51e2918e6f",
+    "semantic_hash": "dead65580c2adf6299a0bb51e2918e6f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorspecialization/controller/DoctorSpecializationController.java": {
+    "mtime": 1792246428.584033,
+    "seen": 1793207786.9269013,
+    "ast_hash": "c275afd971c19208b7b9f40071ffbff9",
+    "semantic_hash": "c275afd971c19208b7b9f40071ffbff9"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorspecialization/entity/DoctorSpecialization.java": {
+    "mtime": 1792238075.7174194,
+    "seen": 1793207786.9269037,
+    "ast_hash": "6ec60a05cd551807750222845c1a1172",
+    "semantic_hash": "6ec60a05cd551807750222845c1a1172"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorspecialization/entity/DoctorSpecializationId.java": {
+    "mtime": 1792238232.430405,
+    "seen": 1793207786.9269066,
+    "ast_hash": "3d4cb9e40f33808a499d39c7e68e67b1",
+    "semantic_hash": "3d4cb9e40f33808a499d39c7e68e67b1"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorspecialization/exception/SpecializationAlreadyAssignedException.java": {
+    "mtime": 1792243980.092732,
+    "seen": 1793207786.9269094,
+    "ast_hash": "cb0027159c116f1bf367bd889245718c",
+    "semantic_hash": "cb0027159c116f1bf367bd889245718c"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorspecialization/exception/SpecializationNotAssignedException.java": {
+    "mtime": 1792243980.1367328,
+    "seen": 1793207786.926912,
+    "ast_hash": "83d0b15ccf39cea3f99eeb7f81bd42b8",
+    "semantic_hash": "83d0b15ccf39cea3f99eeb7f81bd42b8"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorspecialization/repository/DoctorSpecializationRepository.java": {
+    "mtime": 1792243980.1867337,
+    "seen": 1793207786.926915,
+    "ast_hash": "8f97a4383b0cea874a7bec67f1c05da1",
+    "semantic_hash": "8f97a4383b0cea874a7bec67f1c05da1"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorspecialization/service/DoctorSpecializationService.java": {
+    "mtime": 1792402395.9306898,
+    "seen": 1793207786.9269173,
+    "ast_hash": "39f47e911e1b1185b3749ae7482dbcfc",
+    "semantic_hash": "39f47e911e1b1185b3749ae7482dbcfc"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/controller/PrescriptionController.java": {
+    "mtime": 1792399160.4792812,
+    "seen": 1793207786.9269202,
+    "ast_hash": "3cb343efb22eb8e598d392d3e46610a9",
+    "semantic_hash": "3cb343efb22eb8e598d392d3e46610a9"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/dto/CreatePrescriptionRequest.java": {
+    "mtime": 1792399161.0823152,
+    "seen": 1793207786.9269228,
+    "ast_hash": "7927937e0f6501cef915c287a479782c",
+    "semantic_hash": "7927937e0f6501cef915c287a479782c"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/dto/PrescriptionResponse.java": {
+    "mtime": 1792399161.4993389,
+    "seen": 1793207786.9269257,
+    "ast_hash": "13b4c3ce923acbb78d51c83104419461",
+    "semantic_hash": "13b4c3ce923acbb78d51c83104419461"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/dto/UpdatePrescriptionRequest.java": {
+    "mtime": 1792399162.018368,
+    "seen": 1793207786.926928,
+    "ast_hash": "fa3f08c81298d35fb54f06e681f3be8a",
+    "semantic_hash": "fa3f08c81298d35fb54f06e681f3be8a"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/entity/Prescription.java": {
+    "mtime": 1792399595.9940999,
+    "seen": 1793207786.926931,
+    "ast_hash": "de894a83d393f2b91ff4a5c714c64c65",
+    "semantic_hash": "de894a83d393f2b91ff4a5c714c64c65"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/exception/PrescriptionNotFoundException.java": {
+    "mtime": 1792399162.992423,
+    "seen": 1793207786.926934,
+    "ast_hash": "73814d954e40e2b236863f381fcb045a",
+    "semantic_hash": "73814d954e40e2b236863f381fcb045a"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/repository/PrescriptionRepository.java": {
+    "mtime": 1792399596.4535542,
+    "seen": 1793207786.9269369,
+    "ast_hash": "3f733c9b643847f7297b689f00be4861",
+    "semantic_hash": "3f733c9b643847f7297b689f00be4861"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescription/service/PrescriptionService.java": {
+    "mtime": 1792399168.4937341,
+    "seen": 1793207786.92694,
+    "ast_hash": "1cbae2bac68f5d187ec47427685f15e6",
+    "semantic_hash": "1cbae2bac68f5d187ec47427685f15e6"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescriptionitem/dto/CreatePrescriptionItemRequest.java": {
+    "mtime": 1792399168.7897508,
+    "seen": 1793207786.9269505,
+    "ast_hash": "984933e62533b3ce36602291876ba10f",
+    "semantic_hash": "984933e62533b3ce36602291876ba10f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescriptionitem/dto/PrescriptionItemResponse.java": {
+    "mtime": 1792399169.3477824,
+    "seen": 1793207786.9269533,
+    "ast_hash": "89698b5b2aad940d388f409e0761a5f5",
+    "semantic_hash": "89698b5b2aad940d388f409e0761a5f5"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescriptionitem/dto/UpdatePrescriptionItemRequest.java": {
+    "mtime": 1792399169.8748121,
+    "seen": 1793207786.9269557,
+    "ast_hash": "d549e203f4de4f045b0640fa282a8112",
+    "semantic_hash": "d549e203f4de4f045b0640fa282a8112"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescriptionitem/entity/PrescriptionItem.java": {
+    "mtime": 1792238075.7269583,
+    "seen": 1793207786.9269583,
+    "ast_hash": "dfe72273b7c0b82e1aba6b2bbab66d5b",
+    "semantic_hash": "dfe72273b7c0b82e1aba6b2bbab66d5b"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescriptionitem/exception/PrescriptionItemNotFoundException.java": {
+    "mtime": 1792399170.3953564,
+    "seen": 1793207786.9269612,
+    "ast_hash": "6ede9fc58ff443df4a84e71025c05f36",
+    "semantic_hash": "6ede9fc58ff443df4a84e71025c05f36"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/prescriptionitem/repository/PrescriptionItemRepository.java": {
+    "mtime": 1792399170.9464872,
+    "seen": 1793207786.926964,
+    "ast_hash": "d1c5d5856ae593ca0a5f664edff862f7",
+    "semantic_hash": "d1c5d5856ae593ca0a5f664edff862f7"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/controller/ReviewController.java": {
+    "mtime": 1792399171.307893,
+    "seen": 1793207786.9269664,
+    "ast_hash": "83e9776580b60e5a0eec74aba2b6b9e7",
+    "semantic_hash": "83e9776580b60e5a0eec74aba2b6b9e7"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/dto/CreateReviewRequest.java": {
+    "mtime": 1792399171.5639074,
+    "seen": 1793207786.926969,
+    "ast_hash": "fdba9ea789ad1e04b08ac495d99d851f",
+    "semantic_hash": "fdba9ea789ad1e04b08ac495d99d851f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/dto/ReviewResponse.java": {
+    "mtime": 1792399171.9319284,
+    "seen": 1793207786.926972,
+    "ast_hash": "659330b45211bc38714d8bb15c93cdda",
+    "semantic_hash": "659330b45211bc38714d8bb15c93cdda"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/dto/UpdateReviewRequest.java": {
+    "mtime": 1792399172.4299564,
+    "seen": 1793207786.9269748,
+    "ast_hash": "0a9a8bc2a1a67579b7e7d8933b473b5d",
+    "semantic_hash": "0a9a8bc2a1a67579b7e7d8933b473b5d"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/entity/Review.java": {
+    "mtime": 1792238075.7241306,
+    "seen": 1793207786.9269774,
+    "ast_hash": "53323e16224ccfbbb2724b6ea06f9e5f",
+    "semantic_hash": "53323e16224ccfbbb2724b6ea06f9e5f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/exception/DuplicateReviewException.java": {
+    "mtime": 1792399173.235002,
+    "seen": 1793207786.9269798,
+    "ast_hash": "6aec58c5e9086346a84751547dbfb088",
+    "semantic_hash": "6aec58c5e9086346a84751547dbfb088"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/exception/ReviewNotFoundException.java": {
+    "mtime": 1792399173.7020283,
+    "seen": 1793207786.9269826,
+    "ast_hash": "b41e9507ddf81df64608fdcf41f148ee",
+    "semantic_hash": "b41e9507ddf81df64608fdcf41f148ee"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/repository/ReviewRepository.java": {
+    "mtime": 1792399174.1170518,
+    "seen": 1793207786.9269853,
+    "ast_hash": "dcde39bd9645e62acc66f38cd7ec0448",
+    "semantic_hash": "dcde39bd9645e62acc66f38cd7ec0448"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/review/service/ReviewService.java": {
+    "mtime": 1792399174.579078,
+    "seen": 1793207786.926988,
+    "ast_hash": "f7d018d7ca99182a3632b2289f2ab9e9",
+    "semantic_hash": "f7d018d7ca99182a3632b2289f2ab9e9"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/controller/SlotController.java": {
+    "mtime": 1792399175.039104,
+    "seen": 1793207786.9269903,
+    "ast_hash": "890d7cdc2214518955428fd045dac6e1",
+    "semantic_hash": "890d7cdc2214518955428fd045dac6e1"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/dto/CreateSlotRequest.java": {
+    "mtime": 1792399175.6561387,
+    "seen": 1793207786.9269931,
+    "ast_hash": "193c982aa465fe3c9cbe0a832b4daec5",
+    "semantic_hash": "193c982aa465fe3c9cbe0a832b4daec5"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/dto/SlotResponse.java": {
+    "mtime": 1792399177.306232,
+    "seen": 1793207786.926996,
+    "ast_hash": "157d3741cfafed4745cfdeffaee75104",
+    "semantic_hash": "157d3741cfafed4745cfdeffaee75104"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/dto/UpdateSlotRequest.java": {
+    "mtime": 1792399177.6662524,
+    "seen": 1793207786.9269989,
+    "ast_hash": "9911a95bec1e015cb69dbb3360765309",
+    "semantic_hash": "9911a95bec1e015cb69dbb3360765309"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/entity/Slot.java": {
+    "mtime": 1792238075.719924,
+    "seen": 1793207786.9270017,
+    "ast_hash": "2f5ef79f4579093c2003e1b32878d8aa",
+    "semantic_hash": "2f5ef79f4579093c2003e1b32878d8aa"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/exception/SlotNotFoundException.java": {
+    "mtime": 1792399178.0742755,
+    "seen": 1793207786.9270043,
+    "ast_hash": "60c38617c558e68cb2664120eda31648",
+    "semantic_hash": "60c38617c558e68cb2664120eda31648"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/repository/SlotRepository.java": {
+    "mtime": 1792399178.5163004,
+    "seen": 1793207786.9270072,
+    "ast_hash": "8a5b660882a387ddf9df3f0e866c979c",
+    "semantic_hash": "8a5b660882a387ddf9df3f0e866c979c"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/slot/service/SlotService.java": {
+    "mtime": 1792399178.899322,
+    "seen": 1793207786.92701,
+    "ast_hash": "54afa1566d0b66f51df469ceb290ef7f",
+    "semantic_hash": "54afa1566d0b66f51df469ceb290ef7f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/controller/SpecializationController.java": {
+    "mtime": 1793215479.337338,
+    "seen": 1793216413.9970708,
+    "ast_hash": "4a2ef64cb7c0740766e4aebcc932b241",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/dto/CreateSpecializationRequest.java": {
+    "mtime": 1792243980.297482,
+    "seen": 1793207786.9270155,
+    "ast_hash": "db82425526e08aaa96e3606d91d095fa",
+    "semantic_hash": "db82425526e08aaa96e3606d91d095fa"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/dto/SpecializationResponse.java": {
+    "mtime": 1792243980.3353612,
+    "seen": 1793207786.9270182,
+    "ast_hash": "ba2e4b859c009f69cc4034c8428433c7",
+    "semantic_hash": "ba2e4b859c009f69cc4034c8428433c7"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/entity/Specialization.java": {
+    "mtime": 1792238075.7142045,
+    "seen": 1793207786.9270232,
+    "ast_hash": "18fbfb5ee5820713770b8e16245b70af",
+    "semantic_hash": "18fbfb5ee5820713770b8e16245b70af"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/exception/DuplicateSpecializationException.java": {
+    "mtime": 1792243980.365989,
+    "seen": 1793207786.9270256,
+    "ast_hash": "b363fdf4887f954247a78bd794071600",
+    "semantic_hash": "b363fdf4887f954247a78bd794071600"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/exception/SpecializationNotFoundException.java": {
+    "mtime": 1792243980.3907373,
+    "seen": 1793207786.9270284,
+    "ast_hash": "69fa18de44299afe561fad60676d9ba0",
+    "semantic_hash": "69fa18de44299afe561fad60676d9ba0"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/repository/SpecializationRepository.java": {
+    "mtime": 1793215401.1431568,
+    "seen": 1793216413.9975014,
+    "ast_hash": "ac95748ac130e1ed591084773bba5308",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/specialization/service/SpecializationService.java": {
+    "mtime": 1793215433.2136414,
+    "seen": 1793216413.9975045,
+    "ast_hash": "5d0ac450cd7b238c69dbbab8ce4a946f",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/controller/UserController.java": {
+    "mtime": 1792246429.5420506,
+    "seen": 1793207786.9270365,
+    "ast_hash": "e29a16e8e98fcb1aeec5b113d348337f",
+    "semantic_hash": "e29a16e8e98fcb1aeec5b113d348337f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/controller/UserProfileController.java": {
+    "mtime": 1792399179.269343,
+    "seen": 1793207786.9270391,
+    "ast_hash": "609a4bfba8d84acf59707601d198ca1a",
+    "semantic_hash": "609a4bfba8d84acf59707601d198ca1a"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/dto/ErrorResponse.java": {
+    "mtime": 1792238916.9750764,
+    "seen": 1793207786.9270418,
+    "ast_hash": "eb3d82f737d66f9a5d739c49d39ed073",
+    "semantic_hash": "eb3d82f737d66f9a5d739c49d39ed073"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/dto/RegisterUserRequest.java": {
+    "mtime": 1792239990.732617,
+    "seen": 1793207786.9270446,
+    "ast_hash": "33994dbdf15a61a54deaea01bd3d0e87",
+    "semantic_hash": "33994dbdf15a61a54deaea01bd3d0e87"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/dto/UpdateUserRequest.java": {
+    "mtime": 1792399180.7524266,
+    "seen": 1793207786.9270473,
+    "ast_hash": "2c8d0cc559b2e77779204c49961b1952",
+    "semantic_hash": "2c8d0cc559b2e77779204c49961b1952"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/dto/UserResponse.java": {
+    "mtime": 1792240132.6543725,
+    "seen": 1793207786.9270496,
+    "ast_hash": "f2313af58ab8e25b29bd69501b82bcb3",
+    "semantic_hash": "f2313af58ab8e25b29bd69501b82bcb3"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/entity/RegistrationStatus.java": {
+    "mtime": 1792237893.503039,
+    "seen": 1793207786.9270525,
+    "ast_hash": "1c573387e88c711bd7e00d6f2da9bc11",
+    "semantic_hash": "1c573387e88c711bd7e00d6f2da9bc11"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/entity/User.java": {
+    "mtime": 1792240132.9178805,
+    "seen": 1793207786.9270554,
+    "ast_hash": "5ddfad3755119ee444af02e96b6c8923",
+    "semantic_hash": "5ddfad3755119ee444af02e96b6c8923"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/exception/DuplicateResourceException.java": {
+    "mtime": 1792238917.2324154,
+    "seen": 1793207786.927058,
+    "ast_hash": "707e696f248fed5f9748decee9688666",
+    "semantic_hash": "707e696f248fed5f9748decee9688666"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/exception/UserAlreadyRegisteredException.java": {
+    "mtime": 1792238917.2811663,
+    "seen": 1793207786.9270608,
+    "ast_hash": "649996139a04db0998ec31e6699ec353",
+    "semantic_hash": "649996139a04db0998ec31e6699ec353"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/exception/UserExceptionHandler.java": {
+    "mtime": 1792399596.5332577,
+    "seen": 1793207786.9270632,
+    "ast_hash": "427d0eb0dbab41a17d572d0842f7a120",
+    "semantic_hash": "427d0eb0dbab41a17d572d0842f7a120"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/exception/UserNotFoundException.java": {
+    "mtime": 1792238917.3991683,
+    "seen": 1793207786.927066,
+    "ast_hash": "b5ae7657e28758f39b211b13fe5dd980",
+    "semantic_hash": "b5ae7657e28758f39b211b13fe5dd980"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/migration/AddressTableMigrationRunner.java": {
+    "mtime": 1792246429.6450527,
+    "seen": 1793207786.927069,
+    "ast_hash": "ef589d8632d0b4652440b458a2748345",
+    "semantic_hash": "ef589d8632d0b4652440b458a2748345"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/repository/UserRepository.java": {
+    "mtime": 1792237893.8750448,
+    "seen": 1793207786.9270718,
+    "ast_hash": "d82a0edccb71c3b921a2b8620e60627b",
+    "semantic_hash": "d82a0edccb71c3b921a2b8620e60627b"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/service/UserService.java": {
+    "mtime": 1792402396.7476969,
+    "seen": 1793207786.9270742,
+    "ast_hash": "e4baa26f0ce9e44bf8bf21c887d3689c",
+    "semantic_hash": "e4baa26f0ce9e44bf8bf21c887d3689c"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/service/UserSyncHelper.java": {
+    "mtime": 1792246430.5236537,
+    "seen": 1793207786.927077,
+    "ast_hash": "f0ec2de12c31d6da44caf3d83de883d0",
+    "semantic_hash": "f0ec2de12c31d6da44caf3d83de883d0"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/user/valueobject/Address.java": {
+    "mtime": 1792240121.7173438,
+    "seen": 1793207786.92708,
+    "ast_hash": "3603b0faea8a5d87be55c9f84d826a6f",
+    "semantic_hash": "3603b0faea8a5d87be55c9f84d826a6f"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/controller/UserLanguageController.java": {
+    "mtime": 1792399182.066501,
+    "seen": 1793207786.9270825,
+    "ast_hash": "6daafbcfc8644f5c9630710394ad7855",
+    "semantic_hash": "6daafbcfc8644f5c9630710394ad7855"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/dto/AddUserLanguageRequest.java": {
+    "mtime": 1792399183.3505735,
+    "seen": 1793207786.9270854,
+    "ast_hash": "85c8ce1d434bb4f542a2732bfd0c9a57",
+    "semantic_hash": "85c8ce1d434bb4f542a2732bfd0c9a57"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/dto/UserLanguageResponse.java": {
+    "mtime": 1792399183.99361,
+    "seen": 1793207786.9270878,
+    "ast_hash": "4b367166535d166f0f3cad25fa7c3398",
+    "semantic_hash": "4b367166535d166f0f3cad25fa7c3398"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/entity/UserLanguage.java": {
+    "mtime": 1792399596.6555831,
+    "seen": 1793207786.9270906,
+    "ast_hash": "3b2ad77820a6def7b942042baff4649d",
+    "semantic_hash": "3b2ad77820a6def7b942042baff4649d"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/entity/UserLanguageId.java": {
+    "mtime": 1792238232.9034123,
+    "seen": 1793207786.9270935,
+    "ast_hash": "ce737cd193682f639cff082f95904fcc",
+    "semantic_hash": "ce737cd193682f639cff082f95904fcc"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/exception/UserLanguageAlreadyExistsException.java": {
+    "mtime": 1792399185.4156902,
+    "seen": 1793207786.9270961,
+    "ast_hash": "feadfc6d673fcf4a610d96aa96a6fd30",
+    "semantic_hash": "feadfc6d673fcf4a610d96aa96a6fd30"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/exception/UserLanguageNotFoundException.java": {
+    "mtime": 1792399596.7875836,
+    "seen": 1793207786.927099,
+    "ast_hash": "1a224aafef2fc01387d6e018651932f9",
+    "semantic_hash": "1a224aafef2fc01387d6e018651932f9"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/repository/UserLanguageRepository.java": {
+    "mtime": 1792399188.135844,
+    "seen": 1793207786.9271016,
+    "ast_hash": "8c0c869311c01116abe4429ecd99c11d",
+    "semantic_hash": "8c0c869311c01116abe4429ecd99c11d"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/userlanguage/service/UserLanguageService.java": {
+    "mtime": 1792402397.5207038,
+    "seen": 1793207786.9271042,
+    "ast_hash": "773512a2ce6248285ab0f676fd9f1d40",
+    "semantic_hash": "773512a2ce6248285ab0f676fd9f1d40"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/controller/VideoSessionController.java": {
+    "mtime": 1792399190.526979,
+    "seen": 1793207786.927107,
+    "ast_hash": "6e6aa0092f664708302fc4116e3aa6f1",
+    "semantic_hash": "6e6aa0092f664708302fc4116e3aa6f1"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/dto/CreateVideoSessionRequest.java": {
+    "mtime": 1792399190.8475528,
+    "seen": 1793207786.92711,
+    "ast_hash": "ded0d1d4c5b32ae9ef457e3e202a4f9d",
+    "semantic_hash": "ded0d1d4c5b32ae9ef457e3e202a4f9d"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/dto/UpdateVideoSessionRequest.java": {
+    "mtime": 1792399191.019007,
+    "seen": 1793207786.9271123,
+    "ast_hash": "080cb6ce093f495ea4385702f3da81f4",
+    "semantic_hash": "080cb6ce093f495ea4385702f3da81f4"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/dto/VideoSessionResponse.java": {
+    "mtime": 1792399191.2710211,
+    "seen": 1793207786.9271154,
+    "ast_hash": "75b672793efcc438bb48d29c7ca2ed82",
+    "semantic_hash": "75b672793efcc438bb48d29c7ca2ed82"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/entity/VideoSession.java": {
+    "mtime": 1792238075.7230194,
+    "seen": 1793207786.927118,
+    "ast_hash": "3fe9f8c9bfbf45a1a30d8719920aa374",
+    "semantic_hash": "3fe9f8c9bfbf45a1a30d8719920aa374"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/exception/DuplicateVideoSessionException.java": {
+    "mtime": 1792399191.3670266,
+    "seen": 1793207786.927121,
+    "ast_hash": "2b18fcbac4d7fc6a6d25b034fc249caf",
+    "semantic_hash": "2b18fcbac4d7fc6a6d25b034fc249caf"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/exception/VideoSessionNotFoundException.java": {
+    "mtime": 1792399191.8470538,
+    "seen": 1793207786.9271235,
+    "ast_hash": "33f44d204dbba3b1c0799b5392b50142",
+    "semantic_hash": "33f44d204dbba3b1c0799b5392b50142"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/repository/VideoSessionRepository.java": {
+    "mtime": 1792399192.2570767,
+    "seen": 1793207786.9271262,
+    "ast_hash": "2c4ac3b8b1f05660dd716e8945923a2e",
+    "semantic_hash": "2c4ac3b8b1f05660dd716e8945923a2e"
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/videosession/service/VideoSessionService.java": {
+    "mtime": 1792399192.5020907,
+    "seen": 1793207786.9271288,
+    "ast_hash": "16c26cd2740c1438c37fea19462ef0d3",
+    "semantic_hash": "16c26cd2740c1438c37fea19462ef0d3"
+  },
+  "backend/src/main/resources/db/migration/V2__embed_address_into_app_user.sql": {
+    "mtime": 1792240133.3488874,
+    "seen": 1793207786.9271317,
+    "ast_hash": "",
+    "semantic_hash": ""
+  },
+  "expo-template/.claude/settings.json": {
+    "mtime": 1792027920.2422287,
+    "seen": 1793207786.9271343,
+    "ast_hash": "dc580fca35a0e98ed20777ede5e545a1",
+    "semantic_hash": "dc580fca35a0e98ed20777ede5e545a1"
+  },
+  "expo-template/.vscode/extensions.json": {
+    "mtime": 1792027920.2422287,
+    "seen": 1793207786.9271371,
+    "ast_hash": "b2354ba0225f5689d13651ec0fac0de0",
+    "semantic_hash": "b2354ba0225f5689d13651ec0fac0de0"
+  },
+  "expo-template/.vscode/settings.json": {
+    "mtime": 1792027920.2436023,
+    "seen": 1793207786.9271395,
+    "ast_hash": "6b9302c1f72c315e90233c7539c48c9f",
+    "semantic_hash": "6b9302c1f72c315e90233c7539c48c9f"
+  },
+  "expo-template/app.json": {
+    "mtime": 1792027920.2436023,
+    "seen": 1793207786.9271424,
+    "ast_hash": "b55af4eab20def9e0e4fa22607b09536",
+    "semantic_hash": "b55af4eab20def9e0e4fa22607b09536"
+  },
+  "expo-template/assets/expo.icon/icon.json": {
+    "mtime": 1792027920.247518,
+    "seen": 1793207786.9271452,
+    "ast_hash": "35cb915a0bebbebbe69cf7815e174462",
+    "semantic_hash": "35cb915a0bebbebbe69cf7815e174462"
+  },
+  "expo-template/orval.config.ts": {
+    "mtime": 1793217477.5288808,
+    "seen": 1793218224.9623182,
+    "ast_hash": "81b9e8c6d44010b7679d7d876962f2e0",
+    "semantic_hash": ""
+  },
+  "expo-template/package.json": {
+    "mtime": 1792027920.2862294,
+    "seen": 1793207786.9271505,
+    "ast_hash": "9d654fe97a7dc0aeb0d013b25d493873",
+    "semantic_hash": "9d654fe97a7dc0aeb0d013b25d493873"
+  },
+  "expo-template/src/api/axios.ts": {
+    "mtime": 1793208801.2142787,
+    "seen": 1793212378.7455952,
+    "ast_hash": "0ccdf0ea97920ba0abd776b808bfb2dc",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/index.tsx": {
+    "mtime": 1792034194.24436,
+    "seen": 1793207786.9271557,
+    "ast_hash": "acdef2d865b0bb476b306609076a8b28",
+    "semantic_hash": "acdef2d865b0bb476b306609076a8b28"
+  },
+  "expo-template/src/config/env.config.ts": {
+    "mtime": 1793208804.2579622,
+    "seen": 1793212378.7456908,
+    "ast_hash": "cfc6bf3ed9a2e635ca89f14ac8f86be2",
+    "semantic_hash": ""
+  },
+  "expo-template/tsconfig.json": {
+    "mtime": 1792027920.289406,
+    "seen": 1793207786.9271615,
+    "ast_hash": "6794be22dd9dd00003515895d3b4ff06",
+    "semantic_hash": "6794be22dd9dd00003515895d3b4ff06"
+  },
+  "expo-template/docs.md": {
+    "mtime": 1792027920.2812293,
+    "seen": 1793207786.9271638,
+    "ast_hash": "a59c0c471e36bc7d7f01882a5f63406d",
+    "semantic_hash": "a59c0c471e36bc7d7f01882a5f63406d"
+  },
+  ".vscode/settings.json": {
+    "mtime": 1793209281.2229698,
+    "seen": 1793212378.732152,
+    "ast_hash": "c1d228011df346fb592265221517f7ec",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/agent/controller/AgentController.java": {
+    "mtime": 1793212439.541238,
+    "seen": 1793216413.9897718,
+    "ast_hash": "fb286ad3faf3c77c1937f4ccb208870f",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/agent/dto/AgentRequest.java": {
+    "mtime": 1793212452.4314342,
+    "seen": 1793216413.9897754,
+    "ast_hash": "3723014092d6080c3e76d11b86fcacab",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/agent/dto/AgentResponse.java": {
+    "mtime": 1793212456.1574907,
+    "seen": 1793216413.9897785,
+    "ast_hash": "c537cc245eb297ae5c017b47d536cdf0",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/agent/dto/DoctorMatchDto.java": {
+    "mtime": 1793212458.5125268,
+    "seen": 1793216413.9897819,
+    "ast_hash": "c76fbbf487e69d7ad19d0565b69cfa74",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/agent/service/AgentService.java": {
+    "mtime": 1793215950.4544497,
+    "seen": 1793216413.9897852,
+    "ast_hash": "95e9b3216f3ebf576cd996604ac09be5",
+    "semantic_hash": ""
+  },
+  "backend/src/test/java/com/mediconnect/backend/feature/agent/AgentServiceTest.java": {
+    "mtime": 1793212462.1955826,
+    "seen": 1793216414.0011516,
+    "ast_hash": "70e04221bb41e72fa6b91929fec183fb",
+    "semantic_hash": ""
+  },
+  "expo-template/src/api/auth.ts": {
+    "mtime": 1793218134.5756357,
+    "seen": 1793218224.962396,
+    "ast_hash": "532e33bc7fd7eebbee7f721b36549826",
+    "semantic_hash": ""
+  },
+  "expo-template/src/api/medical.ts": {
+    "mtime": 1793218144.645793,
+    "seen": 1793218224.962506,
+    "ast_hash": "6f14344b48b6a52b9b13b6214abe659f",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/_layout.tsx": {
+    "mtime": 1793208786.4571028,
+    "seen": 1793212378.7456012,
+    "ast_hash": "cb1135e1c9cee26a8aad8424f7ab330f",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/ai-assistant.tsx": {
+    "mtime": 1793218105.531182,
+    "seen": 1793218224.96262,
+    "ast_hash": "dcb6416c025116515673f85fdfd8a052",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/appointments/index.tsx": {
+    "mtime": 1793218001.009561,
+    "seen": 1793218224.9626257,
+    "ast_hash": "eda7f515123ecd4d50451dfef7de5071",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/auth.tsx": {
+    "mtime": 1793218118.6383867,
+    "seen": 1793218224.9626305,
+    "ast_hash": "e845af3e0e5ee48de8ac339adb454882",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/doctors/[id].tsx": {
+    "mtime": 1793217914.7382953,
+    "seen": 1793218224.9626343,
+    "ast_hash": "cfa5de0b00c94783b9ba545027ecd72d",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/doctors/index.tsx": {
+    "mtime": 1793217877.760753,
+    "seen": 1793218224.9626398,
+    "ast_hash": "763ca638f5d452d1d88b2b0ea0308fd9",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/profile.tsx": {
+    "mtime": 1793218114.0563152,
+    "seen": 1793218224.9627342,
+    "ast_hash": "a0da3bb88ab4cc3eb43aebdc5ed3dd61",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/slots.tsx": {
+    "mtime": 1793218176.0562837,
+    "seen": 1793218224.9627392,
+    "ast_hash": "4e5978691f54558a73326a216e53c6bf",
+    "semantic_hash": ""
+  },
+  "expo-template/src/app/video-demo.tsx": {
+    "mtime": 1793218030.124004,
+    "seen": 1793218224.9627452,
+    "ast_hash": "8e6b48ee0972b2e33ce4efc4a9ed7ed6",
+    "semantic_hash": ""
+  },
+  "expo-template/src/components/AppHeader.tsx": {
+    "mtime": 1793208803.10739,
+    "seen": 1793212378.7456853,
+    "ast_hash": "e44c9ff06aff0d140f32c0c7ce37dead",
+    "semantic_hash": ""
+  },
+  "expo-template/src/components/AppNavigation.tsx": {
+    "mtime": 1793210411.357478,
+    "seen": 1793212378.7456877,
+    "ast_hash": "2747de209ab19c998f8dca710822a761",
+    "semantic_hash": ""
+  },
+  "expo-template/src/context/SessionContext.tsx": {
+    "mtime": 1793217867.1685975,
+    "seen": 1793218224.9630296,
+    "ast_hash": "d7f42113caff528b7b50afa8e775f86d",
+    "semantic_hash": ""
+  },
+  "expo-template/src/types/auth.ts": {
+    "mtime": 1793217847.789313,
+    "seen": 1793218224.9630349,
+    "ast_hash": "68d409edef945e8693091b4f2b1d7a9d",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1792016234.6803627,
+    "seen": 1793212378.7457447,
+    "ast_hash": "96fb8a29480921ac67e74f4e46b1fd53",
+    "semantic_hash": ""
+  },
+  "ai-service/README.md": {
+    "mtime": 1791996504.111006,
+    "seen": 1793212378.7457478,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "expo-template/AGENTS.md": {
+    "mtime": 1792027920.2436023,
+    "seen": 1793212378.7457502,
+    "ast_hash": "0168b78417bf60f34fd1233c69591023",
+    "semantic_hash": ""
+  },
+  "expo-template/CLAUDE.md": {
+    "mtime": 1792027920.2436023,
+    "seen": 1793212378.7457528,
+    "ast_hash": "5c27369b226fcf2be8a6cfe52224e767",
+    "semantic_hash": ""
+  },
+  "expo-template/README.md": {
+    "mtime": 1792027920.2436023,
+    "seen": 1793212378.7457557,
+    "ast_hash": "db37e01139db6cec80a338779325d5ae",
+    "semantic_hash": ""
+  },
+  "expo-template/readme.md": {
+    "mtime": 1792027920.2862294,
+    "seen": 1793212378.7458036,
+    "ast_hash": "99f37b60ee46c41abaf7a99a3c8fd252",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/expo.icon/Assets/expo-symbol 2.svg": {
+    "mtime": 1792027920.247284,
+    "seen": 1793212378.7458067,
+    "ast_hash": "6979b664c1ce82c10426a051082412a7",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/expo.icon/Assets/grid.png": {
+    "mtime": 1792027920.247518,
+    "seen": 1793212378.745809,
+    "ast_hash": "37cdeda9d1af5d7432716d9671b098da",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/android-icon-background.png": {
+    "mtime": 1792027920.2492287,
+    "seen": 1793212378.745812,
+    "ast_hash": "2d65569cc0e2afdcea0af9f9902d4173",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/android-icon-foreground.png": {
+    "mtime": 1792027920.2492287,
+    "seen": 1793212378.7458148,
+    "ast_hash": "72e71a9c846c6aa4ae32476641a00e18",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/android-icon-monochrome.png": {
+    "mtime": 1792027920.2492287,
+    "seen": 1793212378.7458243,
+    "ast_hash": "1e097dab989759fc0b69440092ca22cd",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/expo-badge-white.png": {
+    "mtime": 1792027920.2492287,
+    "seen": 1793212378.7458277,
+    "ast_hash": "02efb8472f161bcf8afc8c8489a28fca",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/expo-badge.png": {
+    "mtime": 1792027920.2492287,
+    "seen": 1793212378.74583,
+    "ast_hash": "6b0da8ec880685d1bd053c0f5ea9d09d",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/expo-logo.png": {
+    "mtime": 1792027920.253229,
+    "seen": 1793212378.7458327,
+    "ast_hash": "5ee5db91d59518c45ebcc99a2f5afc57",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/favicon.png": {
+    "mtime": 1792027920.253229,
+    "seen": 1793212378.7458353,
+    "ast_hash": "d9f444efbdfbe7931aa93beada07318a",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/icon.png": {
+    "mtime": 1792027920.2602289,
+    "seen": 1793212378.745838,
+    "ast_hash": "8d892ef03dbd43e8d899c1d605ad42df",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/logo-glow.png": {
+    "mtime": 1792027920.2662292,
+    "seen": 1793212378.7458403,
+    "ast_hash": "dbca075a49dc45e550c5d2e3e9601039",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/react-logo.png": {
+    "mtime": 1792027920.2662292,
+    "seen": 1793212378.7458427,
+    "ast_hash": "695d5a1c6f29a689130f3aaa573aec6e",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/react-logo@2x.png": {
+    "mtime": 1792027920.2662292,
+    "seen": 1793212378.7458453,
+    "ast_hash": "b507e7f2c91ebc8fe24dee79ccb3b600",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/react-logo@3x.png": {
+    "mtime": 1792027920.2662292,
+    "seen": 1793212378.7458477,
+    "ast_hash": "8a4d0e5b845044e56e3b2df627d01cfd",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/splash-icon.png": {
+    "mtime": 1792027920.2662292,
+    "seen": 1793212378.74585,
+    "ast_hash": "5ee5db91d59518c45ebcc99a2f5afc57",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/tabIcons/explore.png": {
+    "mtime": 1792027920.2802293,
+    "seen": 1793212378.745853,
+    "ast_hash": "8409922f7d5c981001e3c9b25e4bfae5",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/tabIcons/explore@2x.png": {
+    "mtime": 1792027920.2802293,
+    "seen": 1793212378.7458556,
+    "ast_hash": "dd40200ba8e8d98061578292d6b73791",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/tabIcons/explore@3x.png": {
+    "mtime": 1792027920.2802293,
+    "seen": 1793212378.745858,
+    "ast_hash": "c4278d79298bb11a8b0e68ed3e40da9e",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/tabIcons/home.png": {
+    "mtime": 1792027920.2812293,
+    "seen": 1793212378.7458608,
+    "ast_hash": "eeb5de2ac12ace75b31dfda235208956",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/tabIcons/home@2x.png": {
+    "mtime": 1792027920.2812293,
+    "seen": 1793212378.7458634,
+    "ast_hash": "456346cfb0b82cc0f39e921e05d082d9",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/tabIcons/home@3x.png": {
+    "mtime": 1792027920.2812293,
+    "seen": 1793212378.7458658,
+    "ast_hash": "5d86e963002b3664ab81c128c838559d",
+    "semantic_hash": ""
+  },
+  "expo-template/assets/images/tutorial-web.png": {
+    "mtime": 1792027920.2812293,
+    "seen": 1793212378.7458682,
+    "ast_hash": "c62d22797f3002396754d8cc55b0ae1a",
+    "semantic_hash": ""
+  },
+  "backend/src/main/java/com/mediconnect/backend/feature/doctorembedding/converter/PGvectorUserType.java": {
+    "mtime": 1793214790.3347127,
+    "seen": 1793216413.9908977,
+    "ast_hash": "d6572acfb10765a8904b5bdf52acdeb9",
+    "semantic_hash": ""
+  },
+  "expo-template/openapi.json": {
+    "mtime": 1793217449.313467,
+    "seen": 1793218224.9623103,
+    "ast_hash": "a02984ef335fcfb0d56f15e9e8eb8f77",
+    "semantic_hash": ""
+  },
+  "expo-template/package-lock.json": {
+    "mtime": 1792028108.9272828,
+    "seen": 1793212378.745871,
+    "ast_hash": "32d6419f44576be4cabf24396d431f68",
+    "semantic_hash": ""
+  }
+}
